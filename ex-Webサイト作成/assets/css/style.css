@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(140, 206, 42);
+}
+
+.section {
+    padding: 30px 15px;
+}
+
+.section.section-secoundary {
+    background-color: #1d2129;
+}
+
+.section-headline {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0 0 40px 0;
+}
+
+.about {
+    margin: 0;
+    display: flex;
+}
+
+/* .about-image {}
+
+.about-caption {} */
+
+.about-headline {
+    margin: 0 0 20px;
+    font-size: 30px;
+}
+
+/* .about-description {} */
