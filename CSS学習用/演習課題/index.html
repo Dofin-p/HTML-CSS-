@@ -1,0 +1,40 @@
+<!-- /* 
+-　「.abc」に {color: red;}
+- 「h1タグでかつ.headline」に{color: red;}
+- 「.abc」の子要素すべてに{color: red;}
+-「.abc」の直下の子要素の隣のpタグのみに{color: red;}
+-「.abc」の直下の<a>タグのみにカーソルを乗せたときだけ {color:
+
+一 */ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="abc">Text</div>
+    <h1 class="headline">Headline</h1>
+    <!-- 親要素 -->
+    <div class="abc2">text2
+        <!-- 子要素 -->
+        <ul>
+            <!-- 孫要素 -->
+            <li>item</li>
+        </ul>
+        <p>text 1</p>
+        <p>text 2</p>
+        <div>text text</div>
+    </div>
+
+    <a href="https://www.google.com">Google</a>
+
+</body>
+
+</html>
