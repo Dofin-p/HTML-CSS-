@@ -26,3 +26,26 @@ h1.headline {
 .abc>a:hover {
     color: red;
 }
+
+.box {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.line {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 2px;
+    display: block;
+}
+
+.line2 {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 2px;
+    display: inline-block;
+}
