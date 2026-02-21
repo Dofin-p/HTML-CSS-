@@ -19,7 +19,13 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 0 0 40px 0;
+    margin-bottom: 40px;
+}
+
+.section-botton {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .about {
@@ -32,8 +38,130 @@ body {
 .about-caption {} */
 
 .about-headline {
-    margin: 0 0 20px;
     font-size: 30px;
+    margin: 0 0 20px;
 }
 
-/* .about-description {} */
+.grid {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grid-item {
+    list-style: none;
+}
+
+.grid-col2>.grid-item {
+    width: 50%;
+}
+
+.grid-col3>.grid-item {
+    width: 33.3%;
+}
+
+.grid-col4>.grid-item {
+    width: 25%;
+}
+
+.feature {
+    text-align: center;
+    padding: 0 15px;
+}
+
+.feature-headline {
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.feature-img {
+    margin: 0 0 20px;
+}
+
+.feature-description {
+    margin: 0;
+    text-align: left;
+}
+
+
+.card {
+    padding: 0 10px;
+}
+
+.card-link {
+    display: block;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    transition: background-color 0.2s;
+
+}
+
+.card-link:hover {
+    background-color: aliceblue;
+}
+
+.card-label {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    font-size: 12px;
+    left: 0;
+    top: 0;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+
+}
+
+.card-info {}
+
+/* .card-time {} */
+
+.card-headline {
+    margin: 0;
+}
+
+.card-description {}
+
+.avator {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+}
+
+.avator-name {
+    font-weight: bold;
+    padding-left: 15px;
+
+}
+
+.avator-img {
+    margin: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.botton {
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
