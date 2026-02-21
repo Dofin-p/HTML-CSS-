@@ -7,6 +7,15 @@ body {
     color: rgb(140, 206, 42);
 }
 
+label,
+input,
+textarea,
+select,
+botton {
+    cursor: pointer;
+}
+
+
 .section {
     padding: 30px 15px;
 }
@@ -164,4 +173,79 @@ body {
     margin: 0 auto;
     text-align: center;
     justify-content: center;
+}
+
+.botton.botton-submission {
+    background: #6a96c0;
+}
+
+
+.select {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+}
+
+.input {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+}
+
+.textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+    min-height: 100px;
+}
+
+/* .form{
+
+} */
+.form-table {
+    margin: 0 auto;
+}
+
+.form-table th {
+    text-align: left;
+    padding: 10px;
+}
+
+.form-table td {
+    padding: 10px;
+
+
+}
+
+.form-botton {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.works {
+    margin: 40px 0;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.works>img {
+    margin: 0 10px;
+}
+
+
+.footer {
+    background-color: #1d2129;
+    color: white;
+    text-align: center;
+}
+
+.footer-line {}
+
+.footer-copy {
+    text-align: center;
+    padding: 10px;
 }
